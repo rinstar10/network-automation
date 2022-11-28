@@ -5,6 +5,7 @@ def printlog(logfile, search_word):
     f = open(logfile)       # 파일 열기
     logdata = f.read()      # 파일 읽기
     f.close()               # 파일 닫기
+    print (logdata)
 
     index = logdata.find(search_word)
 
